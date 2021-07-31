@@ -1,0 +1,57 @@
+:root {
+  --text-color-1: #ffffff;
+  --text-color-2: #cdbf79;
+  --text-color-3: #757575;
+  --img-border-color: #a8701b;
+  --nav-bg-color: #cdbf79;
+  --nav-font-color: #ffffff;
+  --nav-collapse-color: #ffffff;
+  --nav-border-color: rgba(0, 0, 0, 0.1);
+  --wedding-content-font-size: 22px;
+  --footer-bg-color: #daa86a;
+  --event-desc-bg: #ffffff;
+  --time-line-divider: #ffffff;
+  --virtual-button-color: #cdbf79;
+  --count-down-bg: #c5c4c22e;
+  /* --our-story-font: roboto;
+  --event-title-font: "Roboto Slab", serif;
+  --couple-name-font: "Brusher";
+  --couple-name-font-size: 50px;
+  --date-venue-font: "Aleo";
+  --section-title-font: "Roboto", sans-serif;
+  --section-content-font: "Roboto Slab", sans-serif;
+  --section-content-font-2: "Roboto", sans-serif; */
+  --rsvp-background-color: #d5cec8;
+  --rsvp-submit-color: #ffffff;
+  --rsvp-placeholder-color: #ffffff;
+  --rsvp-checkbox-color: #ffffff;
+  --guestbook-color: #a8701b;
+  --guestbook-placeholder-color: #a8701b;
+  --time-line-dot: url("/weddingwebsite/assets/images/dot/dot-16.jpg");
+  /* --body-background: url('/weddingwebsite/assets/images/background/background-16.png'); */
+  --banner-image: url("/weddingwebsite/assets/images/banner/theme16.jpg");
+  --divider-image: url("/weddingwebsite/assets/images/divider/divider-img-16.png");
+  --frame-left-top: url("/weddingwebsite/assets/images/frames/d4cec8/left-top.png");
+  --frame-right-top: url("/weddingwebsite/assets/images/frames/d4cec8/right-top.png");
+  --frame-left-bottom: url("/weddingwebsite/assets/images/frames/d4cec8/left-bottom.png");
+  --frame-right-bottom: url("/weddingwebsite/assets/images/frames/d4cec8/right-bottom.png");
+  --rsvp-frame-left-top: url("/weddingwebsite/assets/images/frames/414445/left-top.png");
+  --rsvp-frame-right-top: url("/weddingwebsite/assets/images/frames/414445/right-top.png");
+  --rsvp-frame-left-bottom: url("/weddingwebsite/assets/images/frames/414445/left-bottom.png");
+  --rsvp-frame-right-bottom: url("/weddingwebsite/assets/images/frames/414445/right-bottom.png");
+  --guestbk-frame-left-top: url("/weddingwebsite/assets/images/frames/414445/left-top.png");
+  --guestbk-frame-right-top: url("/weddingwebsite/assets/images/frames/414445/right-top.png");
+  --guestbk-frame-left-bottom: url("/weddingwebsite/assets/images/frames/414445/left-bottom.png");
+  --guestbk-frame-right-bottom: url("/weddingwebsite/assets/images/frames/414445/right-bottom.png");
+}
+.alert-banner {
+  color: #cdbf79;
+}
+@font-face {
+  font-family: malayalam;
+  src: url(ml_font.ttf);
+}
+* {
+  /* font-family: "Baloo Chettan 2", cursive; */
+  font-family: "Chilanka", cursive;
+}

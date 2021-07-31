@@ -1,0 +1,97 @@
+.couple-name, .footer-name{
+    font-weight: normal !important;
+    text-transform: capitalize !important;
+}
+#attend_meeting{
+    color: #767575;
+    border-color: #767575;
+}
+.arrow-cls{
+    background: #D5CEC8 !important;
+    color:#fff !important;
+}
+.css-shape:before{
+    border-right:15px solid #D5CEC8 !important;
+}
+.css-shape:after{
+    border-left:15px solid #D5CEC8 !important;
+}
+.event-description-container{
+    border:2px solid #d4cec8 !important;
+}
+.ourstory-section{
+    border:1px solid #D5CEC8 !important;
+}
+.ourstory-all-sections p{
+    color: #757575 !important;
+}
+.countdown-section, .thanks-banner{
+    color:#595353 !important;
+}
+.today-banner .button-section>.btn {
+    color: #595353 !important;
+    border-color: #595353 !important;
+}
+.time-line-divider{
+    background:#D5CEC8 !important;
+}
+.body-background {
+    background-size: unset !important;
+}
+#header-logo {
+    padding-top: 15px;
+    max-width: 250px !important;
+}
+@media screen and (min-width:1200px){
+    li.nav-item {
+      padding: 0 10px 34px;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    li.nav-item {
+      padding: 0 10px 34px;
+    }
+    #header-logo {
+        top: 0px !important;
+        width: 150px !important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    li.nav-item {
+      padding: 0 5px 34px;
+    }
+    #header-logo {
+        top: 0px !important;
+        width: 100px !important;
+    }
+}
+@media screen and (max-width:767px){
+    #header-logo{
+      max-width: 110px !important;
+      padding-top: 0px;
+    }
+    li.nav-item{
+      border-bottom: 1px solid var(--nav-border-color) !important;     
+    }
+    .ourstory-section{
+        padding: 30px !important;
+    }
+    .ww-nav .nav-item a {
+        color: var(--nav-bg-color) !important;
+    }
+    .footer-logo{
+        max-width: 50% !important;
+    }
+}
+@font-face{
+    font-family: 'Brusher';
+    src: url('/weddingwebsite/assets/fonts/brusher/brusher.ttf');
+}
+@font-face{
+    font-family: 'Aleo';
+    src: url('/weddingwebsite/assets/fonts/aleo/aleo.otf');
+}
+@font-face{
+    font-family: 'Linotype';
+    src: url('/weddingwebsite/assets/fonts/linotype/linotype.ttf');
+}
