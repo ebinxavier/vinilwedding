@@ -183,7 +183,7 @@ if(fixed_logo_themes.includes(siteTheme)){
           if($(window).scrollTop()>50){
               $('#header-logo').attr('style','top:0px !important;width:100px !important;');
           }else{
-            $('#header-logo').attr('style','top:10px !important;width:auto !important;');
+            $('#header-logo').attr('style','top:0px !important;width:100px !important;');
           }
         }else if (window.matchMedia("(min-width: 768px)").matches) {
             if($(window).scrollTop()>50){
